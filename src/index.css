@@ -1,13 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Dancing+Script&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Lato', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', serif;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Lato', serif;
+}
+
+p {
+  font-family: 'Lato', serif;
+}
+
+div {
+  font-family: 'Lato', serif;
+}
+
+h1.nama-pengantin {
+  color: #dd5766;
+}
+
+.color-pink {
+  color: #dd5766 !important;
+}
+
+.rumah-gadang {
+  width: 40%;
+}
+
+.content::before {
+  background-color: #000000;
+  opacity: 0.6;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+}
+@media (max-width: 575.98px) {
+  .text-box2 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-20%);
+  }
+}
+
+@media (min-width: 768px) {
+  .text-box2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.text-box {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-box h2 {
+  color: white;
+  font-family: 'Lato', serif;
+}
+
+.text-box h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: white;
+  margin: 30px 0px;
+}
+
+.text-box p {
+  color: white;
+}
+
+.text-box2 h2 {
+  color: white;
+  font-family: 'Lato', serif;
+  font-weight: bold;
+}
+
+.text-box2 h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: white;
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+.text-box2 p {
+  color: white;
+}
+
+.fsbig {
+  font-size: 42px;
+}
+
+.fs64 {
+  font-size: 64px !important;
+}
+
+.fs81 {
+  font-size: 81px !important;
+}
+
+.fs25 {
+  font-size: 25px !important;
+}
+
+.fs20 {
+  font-size: 20px !important;
+}
+
+.fs30 {
+  font-size: 30px !important;
+}
+
+.fs18 {
+  font-size: 18px !important;
+}
+
+.fs15 {
+  font-size: 15px !important;
+}
+
+.button-open {
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #fb6262;
+  border-radius: 5px 5px 5px 5px;
+  padding: 12px 30px 12px 30px;
+  border-color: transparent;
+}
+
+section#header {
+  min-height: 100vh;
+  background-image: url('https://app.sangmempelai.id/assets/uploads/imgproject/f30d2536892832f4b58865a2fe93f9c3.jpg');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+section#header::before {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4)
+  );
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+  z-index: -1;
+}
+
+section#ucapan {
+  min-height: 100vh;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+#header {
+  color: white;
+}
+
+section#ar-rum21 {
+  min-height: max-content;
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #a77816;
+}
+
+section#penganten {
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.box-centered {
+  display: flex;
+  align-items: center;
+}
+
+.box-centered h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  padding: 0.4em;
+}
+
+.rouge {
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.dancing {
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.lora {
+  font-family: 'Lato', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', serif;
+}
+
+.text-translate {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+section#jadwal {
+  min-height: max-content;
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  color: black;
+}
+
+.bg-dark-transparent {
+  background-image: url('https://img.freepik.com/free-photo/vintage-crumpled-paper-textured-background_53876-103940.jpg?w=900&t=st=1680757965~exp=1680758565~hmac=7de3d0d4543452cba050fc220ca8a62a2bfb082260edb869edf42ecb02a49c98');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+section#countdown {
+  min-height: max-content;
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.countdown-card {
+  border-radius: 10px !important;
+}
+
+.countdown > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  position: relative;
+}
+
+.countdown-item span {
+  display: block;
+}
+
+.countdown-item {
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.6px;
+  line-height: 1;
+}
+
+.countdown-item .label {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+.countdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+section#gift {
+  min-height: max-content;
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+section#live {
+  min-height: max-content;
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.coklat {
+  background-color: #e5d3be;
+}
+
+.text-coklat {
+  color: #a77816;
+}
+
+.button-brown {
+  background-color: #dd5766 !important;
+  color: white !important;
+}
+
+.cc {
+  text-decoration: none;
+  color: white;
+}
+
+.cc:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.fs4m {
+  font-size: 4em;
+}
+
+.fs3m {
+  font-size: 3em;
+}
+
+.fs2m {
+  font-size: 1.5em;
+}
+
+.fs25m {
+  font-size: 2.5em;
+}
+
+section#fotoakhir {
+  min-height: 100vh;
+  background-color: #e5d3be;
+  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.credit {
+  color: #ffffff;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.ig {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #000;
+  margin-top: -10px;
+}
+
+.audio-button {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  z-index: 999;
+}
+
+.height50 {
+  height: 50px;
+}
+
+.content-pesan {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 300px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b38445;
+  border-radius: 10px;
+}
+
+.nama-tamu {
+  color: #000;
+  font-weight: bold !important;
+  text-transform: capitalize !important;
+}
+@media (max-width: 575.98px) {
+  .display-set {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .display-set {
+    display: inline-block;
+  }
+}
+
+.filter-black {
+  -webkit-filter: invert(100%) !important; /* Safari/Chrome */
+  filter: invert(100%) !important;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.countdown-item {
+  background-color: #dd57663d;
+  border: 1px solid #dd5766;
+  color: #dd5766;
+  border-radius: 8px;
+  margin-left: 3px;
+  padding: 8px;
 }

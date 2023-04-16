@@ -1,25 +1,77 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React, { useState, useEffect } from 'react'
+import Opening from './component/Opening'
+import Header from './component/Header'
+import Arrum from './component/Arrum'
+import Penganten from './component/Penganten'
+import Jadwal from './component/Jadwal'
+import Countdown from './component/Countdown'
+import UcapanDoa from './component/UcapanDoa'
+import Gift from './component/Gift'
+import Footer from './component/Footer'
+import music from '../src/talempong.mp3'
+import Live from './component/Live'
+import Undangan from './component/Undangan'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const useAudio = (url) => {
+  const [audio] = useState(new Audio(music))
+  const [playing, setPlaying] = useState(false)
+
+  const toggle = () => setPlaying(!playing)
+
+  useEffect(() => {
+    playing ? audio.play() : audio.pause()
+  }, [playing, audio])
+
+  useEffect(() => {
+    audio.addEventListener('ended', () => setPlaying(false))
+    return () => {
+      audio.removeEventListener('ended', () => setPlaying(false))
+    }
+  }, [audio])
+
+  return [playing, toggle]
 }
 
-export default App;
+export default function App({ url }) {
+  const [open, setOpen] = useState(true)
+  const [playing, toggle] = useAudio(url)
+
+  const openHandle = () => {
+    setOpen(false)
+    toggle()
+  }
+
+  return (
+    <main>
+      <div className="audio-button">
+        <button
+          onClick={toggle}
+          className="btn  btn-lg btn-transparent text-white"
+        >
+          {playing ? (
+            <i className="bi bi-pause-circle-fill fs2m"></i>
+          ) : (
+            <i className="bi bi-play-circle-fill fs2m"></i>
+          )}
+        </button>
+      </div>
+      {open ? (
+        <Opening onClick={() => openHandle()} />
+      ) : (
+        <div>
+          <Header />
+          <Arrum />
+          <Penganten />
+          <Countdown />
+          <Jadwal />
+          <Undangan />
+          <Live />
+          <UcapanDoa />
+          <Gift />
+          <Footer />
+        </div>
+      )}
+    </main>
+  )
+}
