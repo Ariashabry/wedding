@@ -19,7 +19,7 @@ export default function UcapanDoa() {
     try {
       setLoading(true)
       const response = await fetch(
-        'https://aciakapi.azurewebsites.net/api_pesan/pesan',
+        `${process.env.REACT_APP_BACKENDAPI}+/api_pesan/pesan`,
         requestOptions,
       )
       const data = await response.json()
@@ -38,7 +38,7 @@ export default function UcapanDoa() {
     e.preventDefault()
     try {
       let res = await fetch(
-        'https://aciakapi.azurewebsites.net/api_pesan/pesan',
+        `${process.env.REACT_APP_BACKENDAPI}+/api_pesan/pesan`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

@@ -101,9 +101,9 @@ export const TableComponent = (props) => {
               options={{ message: 'Whoa!' }}
               text={pesanKirim(
                 encodeURI(
-                  `https://wedding-ravi-riri.azurewebsites.net/tamu?nama=${
-                    row.nama
-                  }${row.partner ? '&partner=' + row.partner : ''}`,
+                  `${process.env.REACT_APP_BACKENDAPI}+/tamu?nama=${row.nama}${
+                    row.partner ? '&partner=' + row.partner : ''
+                  }`,
                 ),
                 `${row.nama} ${row.partner ? ' & ' + row.partner : ''}`,
               )}

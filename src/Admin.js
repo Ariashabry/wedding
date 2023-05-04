@@ -16,7 +16,7 @@ export default function Admin() {
     e.preventDefault()
     try {
       let res = await fetch(
-        'https://aciakapi.azurewebsites.net/api_undangan/undangan',
+        process.env.REACT_APP_BACKENDAPI + `/api_undangan/undangan`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -49,7 +49,7 @@ export default function Admin() {
     try {
       setLoading(true)
       const response = await fetch(
-        'https://aciakapi.azurewebsites.net/api_undangan/undangan',
+        process.env.REACT_APP_BACKENDAPI + `/api_undangan/undangan`,
         requestOptions,
       )
       const data = await response.json()
@@ -67,7 +67,7 @@ export default function Admin() {
   const deleteHandle = async (id) => {
     try {
       let res = await fetch(
-        `https://aciakapi.azurewebsites.net/api_undangan/undangan/${id}`,
+        process.env.REACT_APP_BACKENDAPI + `/api_undangan/undangan` + id,
         {
           method: 'DELETE',
           headers: { 'Content-Type': 'application/json' },
@@ -103,7 +103,7 @@ Ravi dan Riri
 Waalaikumsalam wr. wb.
 
 ===========================
-Link Undangan Anda: https://wedding-ravi-riri.azurewebsites.net/`
+Link Undangan Anda: ${process.env.REACT_APP_URL}`
 
   useEffect(() => {
     fetchListUndangan()
