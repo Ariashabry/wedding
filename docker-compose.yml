@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   node:
-    image: "node:14-buster"
+    image: "node:20-alpine"
     user: "node"
     working_dir: /home/node/app
     environment:
