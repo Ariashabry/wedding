@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container-fluid pt-5 m-0">
           <div className="row d-flex justify-content-center pt-5 pb-5">
             <div className="col-lg-10 col-11 text-center">
-              <h2 className="rouge fs4m color-pink">Ravi & Riri</h2>
+              <h2 className="rouge fs4m color-pink">Naufal & Hikmah</h2>
               <p className="lora fs18 color-pink">See you on our happy day</p>
             </div>
           </div>

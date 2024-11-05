@@ -35,9 +35,9 @@ export default function Penganten() {
               loading="lazy"
             />
             <div className="card-body p-3">
-              <h1 className="rouge fsbig mb-0">Ravi</h1>
+              <h1 className="rouge fsbig mb-0">Naufal</h1>
               <h2 className="fs20 lora fw-bold mb-2 color-pink">
-                Ravi Maulana, S.Si
+                Ahmad Naufal, S.Pd
               </h2>
               <a
                 href="https://www.instagram.com/aciak_raffy/"
@@ -49,8 +49,8 @@ export default function Penganten() {
               </a>
               <p className="lora mb-1 mt-4">Putra dari : </p>
               <p className="lora">
-                Bapak Bujang St. Malenggang
-                <br />&<br /> Ibu Khadijah
+                Bapak XXX
+                <br />&<br /> Ibu Harlis
               </p>
             </div>
           </div>
@@ -68,9 +68,9 @@ export default function Penganten() {
               loading="lazy"
             />
             <div className="card-body p-3">
-              <h1 className="rouge fsbig mb-0">Riri</h1>
+              <h1 className="rouge fsbig mb-0">Hikmah</h1>
               <h2 className="fs20 lora fw-bold mb-2 color-pink">
-                Riri Widia, S.IQ, S.Ag.
+                Hikmah S.Pd
               </h2>
               <a
                 href="https://www.instagram.com/riri_widia/"

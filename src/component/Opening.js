@@ -20,12 +20,11 @@ export default function Opening({ onClick }) {
             <div className="col-lg-6 col-md-10 col-12">
               <div className="card">
                 <div className="card-body text-center py-3">
-                  <h2 className="text-center fs25 mb-3">Walimatul 'Urs</h2>
-                  <img src={imageRG} className="rumah-gadang pb-4"></img>
-                  <h1 className="nama-pengantin rouge pb-4">Ravi & Riri</h1>
-                  <p className="fs20 pb-4">Kepada Yth:</p>
+                  <h2 className="text-center fs18 mb-3">The Wedding Of</h2>
+                  <h1 className="nama-pengantin fs36 rouge pb-4">Naufal & Hikmah</h1>
+                  <p className="fs18 pt-4 mb-1">Kepada Yth:</p>
                   {namaTamu && (
-                    <p className="fs25 nama-tamu pb-4">
+                    <p className="fs20 nama-tamu mb-1">
                       {namaTamu ?? namaTamu}
                       {namaPartner ? ' & ' + namaPartner : ''}
                     </p>

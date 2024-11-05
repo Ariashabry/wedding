@@ -67,7 +67,7 @@ export default function App({ url }) {
           <Jadwal />
           <Undangan />
           <Live />
-          <UcapanDoa />
+          {/* <UcapanDoa /> */}
           <Gift />
           <Footer />
         </div>

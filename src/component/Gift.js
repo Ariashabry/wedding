@@ -60,7 +60,7 @@ export default function Gift() {
                               loading="lazy"
                               className=""
                             />
-                            <p className="card-text">Riri Widya</p>
+                            <p className="card-text">Ahmad Naufal</p>
                             <hr />
                             <p>7143813775</p>
                           </div>
@@ -79,7 +79,7 @@ export default function Gift() {
                               loading="lazy"
                               className=""
                             />
-                            <p className="card-text">Ravi Maulana</p>
+                            <p className="card-text">Hikmah</p>
                             <hr />
                             <p>4080819968</p>
                           </div>
