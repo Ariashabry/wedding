@@ -44,7 +44,7 @@ export default function Countdown() {
       <div className="container-fluid pt-5 pb-5 m-0">
         <div className="row d-flex justify-content-center pt-5 pb-5">
           <div className="col-lg-10 col-11">
-            <div className="card border-0  countdown-card">
+            <div className="card border-0 bg-transparent">
               {/* <img
                 src={
                   'http://1.bp.blogspot.com/_6ajGEGcAlrg/TQd6Cb1lA9I/AAAAAAAAAA0/dMYRoZXUpeU/s1600/PLM+Ged+B3.JPG'
@@ -54,7 +54,7 @@ export default function Countdown() {
                 className="rounded-top"
                 width={'100%'}
               /> */}
-              <div className="card-body text-center p-3">
+              <div className="card-body putih-kucing text-center p-4 border2">
                 <img
                   width="125"
                   src="https://app.sangmempelai.id/webview/template/bg/a86914d828869fb35d932f158e564ad5.png"
@@ -62,10 +62,10 @@ export default function Countdown() {
                   alt=""
                   loading="lazy"
                 />
-                <h3 className="card-title my-3 rouge fs3m fw-bold color-pink">
+                <h3 className="card-title my-3 rouge fs3m fw-bold color-gold">
                   Menuju Hari Bahagia
                 </h3>
-                <p className="card-text pt-3 lora">
+                <p className="card-text pt-3 lora pb-5">
                   Siang dan malam berganti begitu cepat, diantara saat-saat
                   mendebarkan yang belum pernah kami rasakan sebelumnya. Kami
                   nantikan kehadiran para keluarga dan sahabat, untuk menjadi

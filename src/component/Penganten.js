@@ -13,7 +13,7 @@ export default function Penganten() {
               alt=""
               loading="lazy"
             />
-            <h2 className="fs2m pb-4 lora fw-bold color-pink">
+            <h2 className="fs2m pb-4 lora fw-bold color-gold">
               Assalamu`alaikum Warahmatullaahi Wabarakaatuh
             </h2>
             <h3 className="fs15 text-translate">
@@ -24,23 +24,15 @@ export default function Penganten() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-5 col-12 text-center order-1">
-            <img
-              width={200}
-              src={
-                'https://app.sangmempelai.id/assets/uploads/imgproject/b1963e0fe42ba1f80408ed9952129103.png'
-              }
-              className="rounded-circle"
-              alt=""
-              loading="lazy"
-            />
+          <div className="col-md-5 col-12 text-center order-1 container">
+           <div className='photo-profile1'></div>
             <div className="card-body p-3">
               <h1 className="rouge fsbig mb-0">Naufal</h1>
-              <h2 className="fs20 lora fw-bold mb-2 color-pink">
+              <h2 className="fs20 lora fw-bold mb-2 color-gold">
                 Ahmad Naufal, S.Pd
               </h2>
               <a
-                href="https://www.instagram.com/aciak_raffy/"
+                href="https://www.instagram.com/naufal2608/"
                 target={'_blank'}
                 rel="noreferrer"
                 className="ig"
@@ -49,7 +41,7 @@ export default function Penganten() {
               </a>
               <p className="lora mb-1 mt-4">Putra dari : </p>
               <p className="lora">
-                Bapak XXX
+                Bapak Rusbeni St. Batuah (Alm)
                 <br />&<br /> Ibu Harlis
               </p>
             </div>
@@ -58,22 +50,14 @@ export default function Penganten() {
             <h2 className="fs81">&</h2>
           </div>
           <div className="col-md-5 col-12 text-center order-3">
-            <img
-              width={200}
-              src={
-                'https://app.sangmempelai.id/assets/uploads/imgproject/04d0a20d662dc281108d1c2c0a237cda.png'
-              }
-              className="rounded-circle"
-              alt=""
-              loading="lazy"
-            />
+          <div className='photo-profile2'></div>
             <div className="card-body p-3">
               <h1 className="rouge fsbig mb-0">Hikmah</h1>
-              <h2 className="fs20 lora fw-bold mb-2 color-pink">
-                Hikmah S.Pd
+              <h2 className="fs20 lora fw-bold mb-2 color-gold">
+                Hikmah Silfira, S.Pd
               </h2>
               <a
-                href="https://www.instagram.com/riri_widia/"
+                href="https://www.instagram.com/hikmahsilvira/"
                 target={'_blank'}
                 rel="noreferrer"
                 className="ig"
@@ -82,8 +66,8 @@ export default function Penganten() {
               </a>
               <p className="mb-0 lora mt-4">Putri dari: </p>
               <p className="lora">
-                Bapak Juswir St. Talanai
-                <br />& <br /> Ibu Asnidar
+                Bapak Heril
+                <br />& <br /> Ibu Resmiyanti
               </p>
             </div>
           </div>

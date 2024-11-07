@@ -6,8 +6,26 @@ export default function Gift() {
       <div className="container-fluid pt-5 pb-5 m-0">
         <div className="row d-flex justify-content-center pt-5 pb-5">
           <div className="col-lg-8 col-11">
-            <div className="card-body text-center bg-light text-dark p-lg-5 p-5 rounded-4">
-              <h2 className="rouge fs3m color-pink">Wedding Gift</h2>
+          <div className="card-body text-center bg-light text-coklat p-lg-5 p-3 rounded-4">
+              <h2 className="rouge fs3m text-coklat">Live Streaming</h2>
+              <p className="lora fs18">
+                Kami mengajak Anda yang tidak bisa hadir langsung untuk
+                bergabung pada momen spesial kami melalui siaran langsung secara
+                virtual dengan klik tombol berikut:
+              </p>
+              {/* Button trigger modal */}
+              <a
+                type="button"
+                className="btn button-brown ms-3 m-2"
+                href="https://www.instagram.com/hikmahsilvira/"
+                target={'_blank'}
+                rel="noreferrer"
+              >
+                <i className="bi bi-instagram me-3"></i> Live Instagram Story
+              </a>
+            </div>
+            <div className="card-body text-center bg-light text-dark p-lg-5 p-5 rounded-4 mt-5">
+              <h2 className="rouge fs3m color-gold">Wedding Gift</h2>
               <p className="lora">
                 Doa restu anda merupakan karunia yang sangat berarti bagi kami.
                 dan jika memberi adalah ungkapan tanda terimakasih anda, anda
@@ -49,39 +67,20 @@ export default function Gift() {
                     <div className="modal-body">
                       <div className="row d-flex justify-content-center">
                         <div
-                          className="card text-center m-2"
+                          className="card text-center m-0 p-0 rounded"
                           style={{ width: '18rem' }}
                         >
-                          <div className="card-body">
+                          <div className="card-body bank-bg rounded">
                             <img
-                              width={'100%'}
-                              src="https://wakalahmu.com/storage/artikel/PsZQ6EEMMRM25a7AKyB29eTd8Lb7KqPnNFjViFwd.png"
+                              height={'40px'}
+                              src="https://www.freelogovectors.net/wp-content/uploads/2023/02/bri-logo-freelogovectors.net_.png"
                               alt=""
                               loading="lazy"
-                              className=""
+                              className="mb-3"
                             />
-                            <p className="card-text">Ahmad Naufal</p>
+                            <p className="card-text fw-bold">Ahmad Naufal</p>
                             <hr />
-                            <p>7143813775</p>
-                          </div>
-                        </div>
-                        <div
-                          className="card text-center m-2"
-                          style={{ width: '18rem' }}
-                        >
-                          <div className="card-body">
-                            <img
-                              width={'100%'}
-                              src={
-                                'https://wakalahmu.com/storage/artikel/PsZQ6EEMMRM25a7AKyB29eTd8Lb7KqPnNFjViFwd.png'
-                              }
-                              alt=""
-                              loading="lazy"
-                              className=""
-                            />
-                            <p className="card-text">Hikmah</p>
-                            <hr />
-                            <p>4080819968</p>
+                            <p>0200.0210.2520-5</p>
                           </div>
                         </div>
                       </div>

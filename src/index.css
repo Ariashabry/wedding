@@ -28,7 +28,7 @@ div {
 }
 
 h1.nama-pengantin {
-  color: #dd5766;
+  color: #F1DDA2;
 }
 
 .color-pink {
@@ -154,15 +154,21 @@ h1.nama-pengantin {
   text-transform: capitalize;
   fill: #ffffff;
   color: #ffffff;
-  background-color: #fb6262;
-  border-radius: 5px 5px 5px 5px;
-  padding: 12px 30px 12px 30px;
-  border-color: transparent;
+  background-image: linear-gradient(200deg, #F1DDA2 0%, #65521C 100%);;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: linear-gradient(200deg, #F1DDA2 0%, #65521C 100%);
+  border-radius: 25px 25px 25px 25px;
+  padding: 14px 35px 14px 35px;
+  border: transparent;
 }
 
 section#header {
   min-height: 100vh;
-  background-image: url('https://app.sangmempelai.id/assets/uploads/imgproject/f30d2536892832f4b58865a2fe93f9c3.jpg');
+  background-image: url('https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-WATER-COLOR-FALL-BACK.jpg');
   background-position: center center;
   background-repeat: repeat;
   background-size: cover;
@@ -173,8 +179,8 @@ section#header {
 section#header::before {
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.4)
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.2)
   );
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
   height: 100%;
@@ -203,7 +209,7 @@ section#ucapan {
 section#ar-rum21 {
   min-height: max-content;
   background-color: #e5d3be;
-  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-image: url('https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-7.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -212,11 +218,12 @@ section#ar-rum21 {
 }
 
 section#penganten {
-  background-color: #e5d3be;
-  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: #E8E4CB;
+  background-image: url(https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-5.png);
+  background-position: top center;
+  background-repeat: repeat;
+  background-size: contain;
+  opacity: 1;
   position: relative;
 }
 
@@ -259,13 +266,11 @@ section#penganten {
 
 section#jadwal {
   min-height: max-content;
-  background-color: #e5d3be;
-  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 2;
+  background-image: url('https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-pohon-e1720847505655.webp');
+  /* background-color: #e5d3be; */
+  background-position: top center;
+  background-size: contain;
+  opacity: 1;
   color: black;
 }
 
@@ -280,11 +285,12 @@ section#jadwal {
 section#countdown {
   min-height: max-content;
   background-color: #e5d3be;
-  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-image: url('https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-7.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  color: #a77816;
 }
 
 .countdown-card {
@@ -328,11 +334,11 @@ section#countdown {
 
 section#gift {
   min-height: max-content;
-  background-color: #e5d3be;
-  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: #E8E4CB;
+  background-image: url(https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-5.png);
+  background-position: top center;
+  background-repeat: repeat;
+  background-size: contain;
   position: relative;
 }
 
@@ -355,8 +361,10 @@ section#live {
 }
 
 .button-brown {
-  background-color: #dd5766 !important;
-  color: white !important;
+  color: #FFFFFF !important;
+  background-color: transparent;
+  background-image: linear-gradient(200deg, #BBAB8F 0%, #675C49 100%);
+  border-radius: 25px 25px 25px 25px;
 }
 
 .cc {
@@ -388,7 +396,7 @@ section#live {
 section#fotoakhir {
   min-height: 100vh;
   background-color: #e5d3be;
-  background-image: url('https://app.sangmempelai.id/webview/template/bg/d0e4057b7aaa8151091d30c4c55f7ceb.jpg');
+  background-image: url('../src/image/opening.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -397,6 +405,23 @@ section#fotoakhir {
   z-index: 2;
 }
 
+section#fotoakhir::before {
+  background-color: #000000;
+  opacity: 0.4;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+  z-index: 1;
+}
+
+.footer-text{
+  z-index: 3;
+  margin-top: 200px !important;
+}
 .credit {
   color: #ffffff;
   font-family: 'Poppins', Sans-serif;
@@ -482,3 +507,123 @@ section#fotoakhir {
   margin-left: 3px;
   padding: 8px;
 }
+
+.bg-opening {
+  background-image: url("/src/image/opening2.jpg");
+  background-color: #e5d3be;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-text{
+  color: #303030;
+  padding-top: 190px;
+}
+
+.header-text h1{
+  color: #303030;
+}
+
+.bg-dark-brown{
+  background-color: #675C49C2 !important;
+}
+
+.border2{
+  border-radius: 200px 200px 200px 200px;
+}
+
+.arrum-foto{
+  max-width: 100%;
+  border-radius: 200px 200px 200px 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+  aspect-ratio: 20%;
+}
+
+.putih-kucing{
+  background-color: #f9f7e4c2;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+  
+}
+
+.color-gold{
+  color: #BC9029 !important;
+}
+
+section#foto {
+  background-color: #E8E4CB;
+  background-image: url(../src/image/image4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  height: 700px;
+  position: relative;
+}
+
+section#foto2 {
+  background-color: #E8E4CB;
+  background-image: url(../src/image/image3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  height: 700px;
+  position: relative;
+}
+
+.card-coklat{
+  background-color: #675C49 !important;
+  border-radius: 0200px 0200px 020px 020px !important;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+}
+
+.background-card{
+  background-color: #F1EEE7;
+    background-image: url(https://tibra-invitation.id/wp-content/uploads/2024/07/ASSET-MINANG-1.jpg);
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.bank-bg{
+  background-position: bottom center;
+  background-size: cover;
+  background-image: url('https://tibra-invitation.id/wp-content/uploads/2022/06/Pngtree%E2%80%94simple-and-elegant-technology-gradient_1455303.png');
+}
+
+
+.photo-profile1 {
+  height: 280px;
+  width: 210px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../src/image/user-1.jpg');
+  background-position: center center;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 6px 6px 6px 6px;
+  border-color: #BBAB8F;
+  border-radius: 100px 100px 020px 020px;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.18);
+}
+
+.photo-profile2 {
+  height: 280px;
+  width: 210px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../src/image/user-2.jpg');
+  background-position: center center;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 6px 6px 6px 6px;
+  border-color: #BBAB8F;
+  border-radius: 100px 100px 020px 020px;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.18);
+}
+

@@ -9,9 +9,11 @@ import Countdown from './component/Countdown'
 import UcapanDoa from './component/UcapanDoa'
 import Gift from './component/Gift'
 import Footer from './component/Footer'
+import Foto from './component/Foto'
 import music from '../src/talempong.mp3'
 import Live from './component/Live'
 import Undangan from './component/Undangan'
+import Foto2 from './component/Foto2'
 
 const useAudio = (url) => {
   const [audio] = useState(new Audio(music))
@@ -63,11 +65,13 @@ export default function App({ url }) {
           <Header />
           <Arrum />
           <Penganten />
+          <Foto />
           <Countdown />
           <Jadwal />
           <Undangan />
-          <Live />
+          {/* <Live /> */}
           {/* <UcapanDoa /> */}
+          {/* <Foto2 /> */}
           <Gift />
           <Footer />
         </div>

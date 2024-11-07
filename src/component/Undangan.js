@@ -6,7 +6,7 @@ export default function Undangan() {
       <div className="container-fluid pt-5 pb-5 m-0">
         <div className="row d-flex justify-content-center pt-5 pb-5">
           <div className="col-lg-8 col-11">
-            <div className="card-body text-center bg-white p-lg-5 p-2 rounded-4">
+            <div className="card-body text-center putih-kucing p-lg-5 p-2 rounded-4">
               <img
                 width="125"
                 src="https://app.sangmempelai.id/webview/template/bg/a86914d828869fb35d932f158e564ad5.png"
@@ -14,10 +14,10 @@ export default function Undangan() {
                 alt=""
                 loading="lazy"
               />
-              <h4 className="mb-3 rouge fs3m color-pink">Turut Mengundang</h4>
+              <h4 className="mb-3 rouge fs3m color-gold">Turut Mengundang</h4>
               <div className="row mt-5">
                 <div className="col-12 col-lg-6 text-start p-3">
-                  <p className="fw-bold color-pink">Calon pengantin Pria :</p>
+                  <p className="fw-bold color-gold">Calon pengantin Pria :</p>
                   <ol className="text-start text-dark">
                     <li>Dedi Ahmad Ilham / Rinawati (Kakak / Ipar)</li>
                     <li>
@@ -32,7 +32,7 @@ export default function Undangan() {
                   </ol>
                 </div>
                 <div className="col-12 col-lg-6 text-start p-3">
-                  <p className="fw-bold color-pink">Calon pengantin Wanita :</p>
+                  <p className="fw-bold color-gold">Calon pengantin Wanita :</p>
                   <ol className="text-start text-dark">
                     <li>Wirda Susanti/ Muhammad Afdhal (Kakak/ Ipar)</li>
                     <li>Rahmad Faisal/ Annisa Erma S.Pd (Kakak/ Ipar)</li>

@@ -23,8 +23,8 @@ export default function Router() {
           </>
         }
       />
-      <Route exact path="/admin" element={<Admin />} />
-      <Route exact path="/edittamu/:identifier" element={<Edit />} />
+      {/* <Route exact path="/admin" element={<Admin />} /> */}
+      {/* <Route exact path="/edittamu/:identifier" element={<Edit />} /> */}
     </Routes>
   )
 }
