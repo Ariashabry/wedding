@@ -1,4 +1,5 @@
 import React from 'react'
+import bank from "../image/bank.png";
 
 export default function Gift() {
   return (
@@ -25,7 +26,7 @@ export default function Gift() {
               </a>
             </div>
             <div className="card-body text-center bg-light text-dark p-lg-5 p-5 rounded-4 mt-5">
-              <h2 className="rouge fs3m color-gold">Wedding Gift</h2>
+              <h2 className="rouge fs3m color-gold">Dompet Digital</h2>
               <p className="lora">
                 Doa restu anda merupakan karunia yang sangat berarti bagi kami.
                 dan jika memberi adalah ungkapan tanda terimakasih anda, anda
@@ -39,7 +40,7 @@ export default function Gift() {
                 data-bs-target="#giftModal"
               >
                 <i className="bi bi-gift-fill me-3"></i>
-                Wedding Gift
+                Dompet Digital
               </button>
             </div>
             <div>
@@ -73,7 +74,7 @@ export default function Gift() {
                           <div className="card-body bank-bg rounded">
                             <img
                               height={'40px'}
-                              src="https://www.freelogovectors.net/wp-content/uploads/2023/02/bri-logo-freelogovectors.net_.png"
+                              src={bank}
                               alt=""
                               loading="lazy"
                               className="mb-3"

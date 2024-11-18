@@ -19,29 +19,50 @@ export default function Undangan() {
                 <div className="col-12 col-lg-6 text-start p-3">
                   <p className="fw-bold color-gold">Calon pengantin Pria :</p>
                   <ol className="text-start text-dark">
-                    <li>Dedi Ahmad Ilham / Rinawati (Kakak / Ipar)</li>
+                    <li>Fadhil Ramadhan (Adik)</li>
                     <li>
-                      Zamzami, S.Pd, M.Pd/ Shovia Shadri, Amd (Kakak/Ipar)
+                      Zulnawilis (Tante)
                     </li>
                     <li>
-                      Leni Marlina, S.Pd.l/ Darussalam, S.Pd.I (Kakak/Ipar)
+                      Efialdi (Mamak)
                     </li>
                     <li>
-                      Feri Nofrizal, S.T/ Nisa Kumala Sari, S.E (Kakak/Ipar)
+                      Wedia Feronika (Tante)
+                    </li>
+                    <li>
+                      Hardiko (Mamak)
+                    </li>
+                    <li>
+                      Muhammad Hengki (Mamak)
+                    </li>
+                    <li>
+                      Edo Naldi (Mamak)
+                    </li>
+                    <li>
+                      Ahmad Ridho (Mamak)
                     </li>
                   </ol>
                 </div>
                 <div className="col-12 col-lg-6 text-start p-3">
                   <p className="fw-bold color-gold">Calon pengantin Wanita :</p>
                   <ol className="text-start text-dark">
-                    <li>Wirda Susanti/ Muhammad Afdhal (Kakak/ Ipar)</li>
-                    <li>Rahmad Faisal/ Annisa Erma S.Pd (Kakak/ Ipar)</li>
+                    <li>Zulhardi (Mamak)</li>
+                    <li>Usmardi (Mamak)</li>
                     <li>
-                      Nofri Naldi S.IQ M.Ag/ Dzakiya Ath-thahiroh (Kakak/ Ipar)
+                      Jasril (Mamak)
                     </li>
-                    <li>Serdi Febrian (Adik)</li>
-                    <li>M. Fahri (Adik)</li>
+                    <li>Harnelis (Tante)</li>
+                    <li>Helnawati (Tante)</li>
+                    <li>Yetri (Tante)</li>
+                    <li>Mulya Neka / Iqbal (Kakak)</li>
+                    <li>Novia Angraini / Henki (Kakak)</li>
+                    <li>Yola Violita / Erit (Kakak)</li>
+                    <li>Annisa Syarif (Adik)</li>
+                    <li>Syafnimar (Oma)</li>
+                    <li>Khairani (Oma)</li>
                   </ol>
+
+                  <p className='fw-bold'>Niniak mamak, Urang Sumando, dan seluruh sanak famili kedua mempelai</p>
                 </div>
               </div>
             </div>

@@ -37,7 +37,7 @@ export default function Jadwal() {
                     <h2 className="rouge fs3m color-gold mt-3 mb-3">Akad</h2>
                     <hr />
                     <p className="fs20 fw-bold">MINGGU</p>
-                    <p className="fs20 fw-bold">28 April 2023</p>
+                    <p className="fs20 fw-bold">10 November 2024</p>
                     <p className="fs20 fw-bold">08.00 - 10.00</p>
                     <hr />
                     <p className="fs25"><b>Mesjid Muslimin</b></p>
@@ -47,7 +47,7 @@ export default function Jadwal() {
                     </p>
                     <a
                       className="btn button-brown my-5"
-                      href="https://goo.gl/maps/Bwy4SsTHCj7FADbP9"
+                      href="https://maps.app.goo.gl/7WQmSZRELCc8US9Z8?g_st=ac"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -72,7 +72,7 @@ export default function Jadwal() {
                     <div className="card-body">
                     <h2 className="rouge fs3m color-gold mb-3">Mempelai Pria</h2>
                     <hr />
-                    <p className="fs20 fw-bold">Sabtu</p>
+                    <p className="fs20 fw-bold">SABTU</p>
                     <p className="fs20 fw-bold">16 November 2024</p>
                     <p className="fs20 fw-bold">11.00 - Selesai</p>
                     <hr />
@@ -82,7 +82,7 @@ export default function Jadwal() {
                     </p>
                     <a
                       className="btn button-brown my-5"
-                      href="https://goo.gl/maps/AxWB7P3A17PhgkCa8"
+                      href="https://goo.gl/maps/61NzC6va4Z7DZV148?g_st=ac"
                       target="_blank"
                       rel="noreferrer"
                     >
